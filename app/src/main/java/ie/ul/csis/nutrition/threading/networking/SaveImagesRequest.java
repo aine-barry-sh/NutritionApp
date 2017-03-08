@@ -67,7 +67,7 @@ public class SaveImagesRequest extends AsyncTask<MealsSaveImagesDto, Void, Uploa
         if(meal.getResponseCode() == meal.getExpectedResponceCode())
         {
             activity.getImageView().setImageDrawable(null);
-            activity.getImageFile().delete();
+            //activity.getImageFile().delete();
             Tools.toast(activity, "Image sent successfully");
         }
         else

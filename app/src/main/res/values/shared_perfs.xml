@@ -5,4 +5,5 @@
     <string name="rememberMeKey">rememberMe</string>
     <string name="tokenKey">token</string>
     <string name="tokenExpiryTimeKey">tokenExpiryTime</string>
+    <integer name="uploadPreference">0</integer>
 </resources>

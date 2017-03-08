@@ -1,4 +1,4 @@
-package ie.ul.csis.nutrition.user_interface;
+package ie.ul.csis.nutrition.utilities;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -26,6 +26,8 @@ public class BitmapTask extends AsyncTask<String, Void, Bitmap> {
     @Override
     protected Bitmap doInBackground(String... params)
     {
+
+
 
         if(params.length == 0)
         {

@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <!-- Hardware -->
     <uses-feature android:name="android.hardware.camera" />
@@ -15,38 +16,31 @@
         android:allowBackup="true"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme.NoActionBar" >
-
-
-
+        android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name="ie.ul.csis.nutrition.user_interface.SplashActivity"
+            android:name=".user_interface.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="ie.ul.csis.nutrition.user_interface.LoginActivity"
+            android:name=".user_interface.LoginActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="ie.ul.csis.nutrition.user_interface.RegisterActivity"
+            android:name=".user_interface.RegisterActivity"
             android:label="@string/title_activity_register_user"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="ie.ul.csis.nutrition.user_interface.MainActivity"
+            android:name=".user_interface.MainActivity"
             android:label="@string/app_name"
-            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
-            android:screenOrientation="portrait">
-        </activity>
-
+            android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -55,8 +49,9 @@
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths"></meta-data>
+                android:resource="@xml/file_paths" />
         </provider>
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />

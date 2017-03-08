@@ -96,9 +96,9 @@ public class RegisterActivity extends AppCompatActivity {
 
     private void register(String email, String password) {
 
-        AccountRegisterDto dto = new AccountRegisterDto(email, password, password);
-        RegisterRequest register = new RegisterRequest(this);
-        register.execute(dto);
+//        AccountRegisterDto dto = new AccountRegisterDto(email, password, password);
+//        RegisterRequest register = new RegisterRequest(this);
+//        register.execute(dto);
 
     }
 

@@ -1,41 +1,70 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:background="@mipmap/background">
+    android:background="@drawable/background">
 
     <ImageView
         android:id="@+id/displayImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btn_takenPic"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        />
-
-    <Button
-        android:id="@+id/btn_takenPic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="take Picture"
+        android:layout_height="400dp"
+        android:layout_width="10dp" />
+    <!--<fragment-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/selectFrag"-->
+        <!--android:name="ie.ul.csis.nutrition.user_interface.Fragments.SelectionFragment"-->
+        <!--tools:layout="@layout/fragment_selection" />-->
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/contentFragment"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp">
 
-    <Button
-        android:id="@+id/btn_sendPic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Send Picture"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        />
+    </FrameLayout>
+
+
+    <!--<Button-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/displayImage"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:background="@drawable/ic_image_black_24dp"-->
+        <!--android:id="@+id/btn_test"-->
+
+        <!--android:maxWidth="@dimen/icon_width"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_takenPic"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:background="@drawable/ic_camera_alt_black_24dp"-->
+        <!--android:maxWidth="@dimen/icon_width"-->
+        <!--android:layout_marginStart="41dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_sendPic"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/ic_check_circle_black_24dp"-->
+
+    <!--android:maxWidth="@dimen/icon_width"-->
+    <!--android:layout_marginEnd="43dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentEnd="true" />-->
 
 
 </RelativeLayout>

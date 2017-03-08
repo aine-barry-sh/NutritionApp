@@ -14,6 +14,8 @@ import android.widget.ImageButton;
 import api.dto.accounts.AccountTokenDto;
 import ie.ul.csis.nutrition.R;
 import ie.ul.csis.nutrition.threading.networking.LoginRequest;
+import ie.ul.csis.nutrition.user_interface.Dialogs.InternetInformationDialog;
+import ie.ul.csis.nutrition.user_interface.Dialogs.NutritionDialog;
 import ie.ul.csis.nutrition.utilities.Tools;
 
 import java.net.URLEncoder;
@@ -30,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
     private ImageButton btnForgotPassword;
     private ProgressDialog pDialog;
 
-    private SharedPreferences someData;
+    private SharedPreferences preferenceData;
     private SharedPreferences.Editor editor;
 
     @Override
@@ -46,8 +48,8 @@ public class LoginActivity extends AppCompatActivity {
 
     private void init(){
         context = this;
-        someData = getSharedPreferences(context.getString(R.string.sharedPerfs), MODE_PRIVATE);
-        editor = someData.edit();
+        preferenceData = getSharedPreferences(context.getString(R.string.sharedPerfs), MODE_PRIVATE);
+        editor = preferenceData.edit();
 
         etEmail = (EditText) findViewById(R.id.etEmail);
         etPassword = (EditText) findViewById(R.id.etRegisterPassword);
@@ -57,7 +59,11 @@ public class LoginActivity extends AppCompatActivity {
 //        btnForgotPassword = (ImageButton) findViewById(R.id.btnForgotPassword);
 
 
-        cbRememberMe.setChecked(someData.getBoolean(context.getString(R.string.rememberMeKey), false));
+        cbRememberMe.setChecked(preferenceData.getBoolean(context.getString(R.string.rememberMeKey), false));
+
+        if (preferenceData.getBoolean("rememberMe", false)) {
+            etEmail.setText(preferenceData.getString("email", ""));
+        }
 
         pDialog = new ProgressDialog(context);
         pDialog.setTitle("Logging In");
@@ -120,6 +126,8 @@ public class LoginActivity extends AppCompatActivity {
         LoginRequest request = new LoginRequest(this);
         request.execute(dto);
     }
+
+
 
     public void changeToMainActivity()
     {

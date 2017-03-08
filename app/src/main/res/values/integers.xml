@@ -6,4 +6,7 @@
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="google_play_services_version">8487000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="PICK_IMAGE">100</integer>
+    <integer name="REQUEST_TAKE_PHOTO">1</integer>
+    <integer name="PHOTO_SUCCESS">0</integer>
 </resources>

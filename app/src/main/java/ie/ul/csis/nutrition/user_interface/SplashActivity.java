@@ -6,57 +6,49 @@ import android.content.SharedPreferences;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import api.dto.Dto;
-import api.dto.accounts.*;
 import ie.ul.csis.nutrition.R;
 import ie.ul.csis.nutrition.utilities.Tools;
 
+/**
+ * 
+ */
 public class SplashActivity extends AppCompatActivity {
 
-    private SharedPreferences someData;
+    private SharedPreferences preferences;
     private Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
         context = this;
 
-        someData = getSharedPreferences(context.getString(R.string.sharedPerfs), MODE_PRIVATE);
+        preferences = getSharedPreferences(context.getString(R.string.sharedPerfs), MODE_PRIVATE);
 
-        if(!Tools.hasInternetConnection(context)) {
-            context.startActivity(new Intent(SplashActivity.this, MainActivity.class));
-            Tools.toast(context, "No internet connection");
-            finish();
-            return;
-        }
+        if(preferences.getBoolean(context.getString(R.string.rememberMeKey), false))  {
+            Log.d("SplashActivity", preferences.getString("token", "no token found"));
 
-        Dto dto = new Dto() {
-            @Override
-            public String toString() {
-                return "hello";
-            }
-        };
 
-        if(someData.getBoolean(context.getString(R.string.rememberMeKey), false)) {
-
-            Long expiryTime = someData.getLong(context.getString(R.string.tokenExpiryTimeKey), 0);
+            Long expiryTime = preferences.getLong(context.getString(R.string.tokenExpiryTimeKey), 0);
 
             if(System.currentTimeMillis()<expiryTime) {
                 context.startActivity(new Intent(SplashActivity.this, MainActivity.class));
                 finish();
                 return;
             } else {
-                context.startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                context.startActivity(new Intent(SplashActivity.this, LoginActivity.class));
                 Tools.toast(context, "Token out of date. Please re login");
                 finish();
                 return;
             }
         } else {
-            context.startActivity(new Intent(SplashActivity.this, MainActivity.class));
+            context.startActivity(new Intent(SplashActivity.this, LoginActivity.class));
             finish();
             return;
         }

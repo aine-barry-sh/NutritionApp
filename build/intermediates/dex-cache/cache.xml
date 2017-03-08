@@ -3,156 +3,66 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.0"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_e247c8f572498b941804102c66119eed7537d22a.jar" />
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_6ea966342041f2b10332ba4a611d6c706e5c159d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_b515740151c29795346d5160707c99342184ac55.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_3c19f2442fed925199c391c31ccc20079e425f55.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\libs\gson-2.6.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\gson-2.6.2_10ea4436f0b74d92568d4dee1e93a3ff620f0b43.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_9c3f6c0e10efbb895b965742603a681caeb611c9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_cb05da63ebfe76f17a7b63c805193224fdddb6d0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5a8e14bceed88f208bebe0b94c36113a5c6a337c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_0f3579aa0c3635c0a485d9607802451628ce7b89.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_f24685f982b209f2a8bedb008a4c73a89d24a4f5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_a742636ac436812e9a0cb727ddcb66e9d8d366f9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d3e627a2557e8de682420b6b58bcafd4b12a8c74.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_2c03c10e578408da2452266e776963818fdcd85e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_14d8294bdd2fcffd3d0d9a4ed424f00a080a3510.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\libs\AndroidNetworking.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="136731a037c7e2fe3f19e7bb5f510705f877b1b7">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\AndroidNetworking_afec6871a11e286387d25f273019e3b9df2e4500.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_9a3a766625ee164677f080bea035be46c961933f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.0"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_f53720512f7f49393535c04eeb9fff3fa7bb9107.jar" />
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_5533e1d749bb14d8ad24c3d56f8d62b5221d9eec.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.0"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\aineb100\Desktop\FYP\Fresh\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_373f2dc552669c1e016db32de661eb797f1f27e8.jar" />
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_0654fb2501199cf5c259cf29f18cf07a80e62767.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f139c2b20b0a52c50f2ed3a4c27abacbc21192cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_c6719ea549df8c3d2a84615d5547507651137136.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_3cf5534350bbcb8f0fda83047e879ab21e2c17ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_237af7c0367e309fe60fd657572a33d05d6ff462.jar" />
     </item>
 
 </items>

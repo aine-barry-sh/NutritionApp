@@ -54,4 +54,24 @@ public  class Tools {
         return false;
 
     }
+
+    public static boolean isConnectedToInternet(Context context, int preference) {
+        //if preference == 0, only wifi. If preference == 1, wifi or mobile connection
+        int [] acceptableNetworkTypes = {ConnectivityManager.TYPE_WIFI};
+        if (preference == 1) {
+            acceptableNetworkTypes[1] = ConnectivityManager.TYPE_MOBILE;
+        }
+
+        ConnectivityManager cm = (ConnectivityManager)context.getSystemService(context.CONNECTIVITY_SERVICE);
+        for (int networkType : acceptableNetworkTypes) {
+            NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+            if (activeNetwork != null && activeNetwork.getType() == networkType) {
+
+                return true;
+            }
+        }
+        return false;
+    }
+
+
 }

@@ -82,12 +82,13 @@ public class LoginRequest extends AsyncTask<AccountTokenDto, Void, AccountToken>
                         cal.getTimeInMillis());
                 editor.commit();
                 progressDialog.dismiss();
-      //          activity.changeToMainActivity();
+                activity.changeToMainActivity();
 
             }
             else
             {
-                Tools.toast(activity, "Invalid Email or Password");
+                Tools.toast(activity, token.getResponseMessage());
+                //Tools.toast(activity, "Invalid Email or Password");
                 progressDialog.dismiss();
             }
         } catch (JSONException e) {

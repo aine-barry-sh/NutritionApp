@@ -5,6 +5,7 @@ import android.os.AsyncTask;
 
 import api.dto.accounts.AccountRegisterDto;
 import api.httprequests.account.AccountRegister;
+import ie.ul.csis.nutrition.user_interface.MainActivity;
 import ie.ul.csis.nutrition.user_interface.RegisterActivity;
 import ie.ul.csis.nutrition.utilities.Tools;
 
@@ -14,11 +15,11 @@ import ie.ul.csis.nutrition.utilities.Tools;
  */
 public class RegisterRequest extends AsyncTask<AccountRegisterDto, Void,  AccountRegister>
 {
-    private final RegisterActivity activity;
+    private final MainActivity activity;
     private ProgressDialog progressDialog;
 
 
-    public RegisterRequest(RegisterActivity activity)
+    public RegisterRequest(MainActivity activity)
     {
         this.activity = activity;
         progressDialog = activity.getProgressDialog();

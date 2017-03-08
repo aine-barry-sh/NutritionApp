@@ -1,4 +1,4 @@
-package ie.ul.csis.nutrition.user_interface;
+package ie.ul.csis.nutrition.user_interface.Uploaders;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,21 +15,31 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * Created by ruppe on 10/07/2016.
+ * Modified by Aine
  */
 
-public class FileStatus implements Runnable, Observer {
+public class FileStatus extends Observable implements Runnable {
 
-    List<Observer> observerList;
-    Context context;
-    AtomicBoolean doIt = new AtomicBoolean(true);
+    private List<Observer> observerList;
+    private Context context;
+    private AtomicBoolean doIt = new AtomicBoolean(true);
+    private int time;
+    //max time 1 hour
+    private final int maxTime = 3600000;
 
     public FileStatus(Context context) {
         this.context = context;
         observerList = new ArrayList<Observer>();
+        //one minute
+        time = 60000;
          }
 
-    public static boolean isFilePresent(Context context) {
+    public void addObserver(Observer myObserver) {
+        observerList.add(myObserver);
+    }
+    public void detachObserver(Observer o) { observerList.remove(o); }
 
+    public static boolean isFilePresent(Context context) {
 
         boolean haveFile = true;
 
@@ -46,26 +56,30 @@ public class FileStatus implements Runnable, Observer {
         return haveFile;
     }
 
-
-
-
     @Override
     public void run() {
         android.os.Process.setThreadPriority(android.os.Process.THREAD_PRIORITY_BACKGROUND);
 
+
+
         while (true) {
-            Log.d("FileStatuss", "Checking is file existing");
+            Log.d("FileStatuss", "Checking if present: " + time);
             if (isFilePresent(context)){
                 Log.d("FileStatus", "Folder is not empty, files are existing");
-
+                resetTime();
+                updateObserver();
             }
             else{
                 Log.d("FileStatus", "Folder is empty, no files");
                 doIt.set(false);
+                time = time +  (60000*5) ;
+                if (time >= maxTime) {
+                    time = maxTime;
+                }
 
             }
             try {
-                Thread.sleep(10000);
+                Thread.sleep(time);
             } catch (InterruptedException e) {
                 // TODO Auto-generated catch block
                 Log.d("FileStatus", "FileStatus is interupted");
@@ -80,4 +94,25 @@ public class FileStatus implements Runnable, Observer {
 
 
     }
+
+    public void updateObserver() {
+        for (Observer o: observerList) {
+            o.update(this, this);
+        }
+    }
+
+
+    public void setTimeChecker(int time) {
+        if ( time <=0 ) {
+            this.time = 60000;
+            return;
+        }
+        this.time = time;
+    }
+
+    public void resetTime() {
+        this.time = 60000;
+    }
+
+
 }

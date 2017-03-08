@@ -1,6 +1,5 @@
-package ie.ul.csis.nutrition.user_interface;
+package ie.ul.csis.nutrition.utilities;
 
-import android.app.Activity;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -11,9 +10,6 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
 
-import api.dto.accounts.AccountTokenDto;
-import ie.ul.csis.nutrition.threading.networking.LoginRequest;
-import ie.ul.csis.nutrition.utilities.Tools;
 
 
 /**
@@ -28,15 +24,6 @@ import ie.ul.csis.nutrition.utilities.Tools;
             observerList = new ArrayList<Observer>();
 
         }
-
-    // why is this here? outside method, doesn't seem to serve purpose.
-    // if I find the purpose, will uncomment. Otherwise, delete before deployment
-//        String email = "test87@gmail.com";
-//        String password = "Password123";
-//        AccountTokenDto dto = new AccountTokenDto(email, password);
-//        LoginRequest request = new LoginRequest(this);
-//        request.execute(dto);
-
 
 
         public static boolean isConnectedToInternet(Context context) {

@@ -43,13 +43,13 @@ public class UploadImageMeal  extends PostRequest{
         MealsSaveImagesDto mealDto = (MealsSaveImagesDto)dto;
 
         String json = "{\"Name\":";
-        if(mealDto.Name ==  null)
+        if(mealDto.MealName ==  null)
         {
             outputStreamWriter.write(json+"\"Default Name\",");
         }
         else
         {
-            outputStreamWriter.write(json+"\""+mealDto.Name+"\",");
+            outputStreamWriter.write(json+"\""+mealDto.MealName+"\",");
         }
         outputStreamWriter.flush();
 
@@ -72,6 +72,8 @@ public class UploadImageMeal  extends PostRequest{
 
             for(int currentFile = 0; currentFile < mealDto.Images.length; currentFile++)
             {
+
+                Tools.log(currentFile + " " + mealDto.Images[currentFile].getName());
 
                 json += "{\"Name\":" + "\"" + mealDto.Images[currentFile].getName()+"\",";
                 json += "\"Base64\":" + "\"" ;

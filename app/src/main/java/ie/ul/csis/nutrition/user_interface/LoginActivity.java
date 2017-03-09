@@ -14,11 +14,8 @@ import android.widget.ImageButton;
 import api.dto.accounts.AccountTokenDto;
 import ie.ul.csis.nutrition.R;
 import ie.ul.csis.nutrition.threading.networking.LoginRequest;
-import ie.ul.csis.nutrition.user_interface.Dialogs.InternetInformationDialog;
-import ie.ul.csis.nutrition.user_interface.Dialogs.NutritionDialog;
 import ie.ul.csis.nutrition.utilities.Tools;
 
-import java.net.URLEncoder;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -28,8 +25,6 @@ public class LoginActivity extends AppCompatActivity {
     private ImageButton btnLogin;
     private CheckBox cbRememberMe;
     private Context context;
-    private ImageButton btnSignUp;
-    private ImageButton btnForgotPassword;
     private ProgressDialog pDialog;
 
     private SharedPreferences preferenceData;
@@ -55,8 +50,6 @@ public class LoginActivity extends AppCompatActivity {
         etPassword = (EditText) findViewById(R.id.etRegisterPassword);
         btnLogin = (ImageButton) findViewById(R.id.btnLogin);
         cbRememberMe = (CheckBox) findViewById(R.id.cbRememberMe);
-//        btnSignUp = (ImageButton) findViewById(R.id.btnSignUp);
-//        btnForgotPassword = (ImageButton) findViewById(R.id.btnForgotPassword);
 
 
         cbRememberMe.setChecked(preferenceData.getBoolean(context.getString(R.string.rememberMeKey), false));
@@ -103,20 +96,6 @@ public class LoginActivity extends AppCompatActivity {
                 login(email, password);
             }
         });
-
-//        btnSignUp.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                context.startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
-//            }
-//        });
-
-//        btnForgotPassword.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Tools.toast(context, context.getString(R.string.error_unavailable_feature));
-//            }
-//        });
     }
 
     public void login(final String email, final String password)

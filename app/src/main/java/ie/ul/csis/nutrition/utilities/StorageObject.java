@@ -46,13 +46,15 @@ public class StorageObject {
         return new Gson().toJson(this).toString();
     }
 
+    private String makeFileName(String imageName) {
+        String [] splitString = imageName.split(".jpg");
+        return splitString[0] + ".txt";
+    }
+
     public void toFile() {
         try {
-            File infoFile = File.createTempFile(
-                    imageName,  /* prefix */
-                    ".txt",         /* suffix */
-                    directory      /* directory */
-            );
+
+            File infoFile = new File(directory, makeFileName(imageName));
             PrintWriter printWriter = new PrintWriter(new FileOutputStream(
                     infoFile,
                     true /* append = true */));

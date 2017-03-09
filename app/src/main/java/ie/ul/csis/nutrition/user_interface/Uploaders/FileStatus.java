@@ -1,8 +1,6 @@
 package ie.ul.csis.nutrition.user_interface.Uploaders;
 
-import android.app.Activity;
 import android.content.Context;
-import android.net.ConnectivityManager;
 import android.os.Environment;
 import android.util.Log;
 import java.io.File;
@@ -30,7 +28,7 @@ public class FileStatus extends Observable implements Runnable {
     public FileStatus(Context context) {
         this.context = context;
         observerList = new ArrayList<Observer>();
-        //one minute
+        //1 minute
         time = 60000;
          }
 
@@ -44,7 +42,6 @@ public class FileStatus extends Observable implements Runnable {
         boolean haveFile = true;
 
         File file = (File) context.getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-        // File directory = new File(getExternalFilesDir(Environment.DIRECTORY_PICTURES));
         if (file.isDirectory()) {
             String[] files = file.list();
             if (files.length == 0) {
@@ -63,19 +60,15 @@ public class FileStatus extends Observable implements Runnable {
 
 
         while (true) {
-            Log.d("FileStatuss", "Checking if present: " + time);
+            Log.d("FileStatus", "Checking if present" );
             if (isFilePresent(context)){
-                Log.d("FileStatus", "Folder is not empty, files are existing");
-                resetTime();
+                setShortTime();
                 updateObserver();
             }
             else{
+                setLongTime();
                 Log.d("FileStatus", "Folder is empty, no files");
                 doIt.set(false);
-                time = time +  (60000*5) ;
-                if (time >= maxTime) {
-                    time = maxTime;
-                }
 
             }
             try {
@@ -101,18 +94,14 @@ public class FileStatus extends Observable implements Runnable {
         }
     }
 
-
-    public void setTimeChecker(int time) {
-        if ( time <=0 ) {
-            this.time = 60000;
-            return;
-        }
-        this.time = time;
+    private void setLongTime() {
+        time = 60000 * 30;
     }
 
-    public void resetTime() {
-        this.time = 60000;
+    private void setShortTime() {
+        time = 60000*30;
     }
+
 
 
 }

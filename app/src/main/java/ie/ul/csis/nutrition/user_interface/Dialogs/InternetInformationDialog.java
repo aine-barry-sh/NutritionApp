@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
+import android.util.Log;
 
 import ie.ul.csis.nutrition.R;
 
@@ -32,14 +33,19 @@ public class InternetInformationDialog extends NutritionDialog {
         builder.setItems(options, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int item) {
                 // Do something with the selection
-                SharedPreferences.Editor editor = preferences.edit();
-                editor.putInt("wifiOnly", item);
-                editor.commit();
+                setWifiPreference(item);
             }
         });
         super.dialog = builder.create();
 
 
+    }
+
+    private void setWifiPreference(int choice) {
+        SharedPreferences.Editor editor = preferences.edit();
+        Log.d("InternetDialog", "preference: " + choice);
+        editor.putInt("wifiOnly", choice);
+        editor.commit();
     }
 
 

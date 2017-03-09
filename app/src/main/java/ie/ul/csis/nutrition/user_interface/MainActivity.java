@@ -14,12 +14,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import ie.ul.csis.nutrition.R;
 import ie.ul.csis.nutrition.threading.networking.LogoutRequest;
-import ie.ul.csis.nutrition.user_interface.Dialogs.ExtraTextDialog;
+import ie.ul.csis.nutrition.user_interface.Dialogs.DialogManager;
 import ie.ul.csis.nutrition.user_interface.Dialogs.InternetInformationDialog;
-import ie.ul.csis.nutrition.user_interface.Dialogs.MealPickerDialog;
 import ie.ul.csis.nutrition.user_interface.Dialogs.NutritionDialog;
 import ie.ul.csis.nutrition.user_interface.Fragments.ConfirmationFragment;
 import ie.ul.csis.nutrition.user_interface.Fragments.SelectionFragment;
@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
     private File imageFile;
     private Context context;
     private ProgressDialog pDialog;
-    private ConnectivityObserver connectivityObserver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,11 +52,14 @@ public class MainActivity extends AppCompatActivity {
         pDialog.setCancelable(false);
 
         getPermissions();
-        initializeBackgroundProgress();
         updateFragment();
-
-
         uploadPreferences();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        initializeBackgroundProgress();
     }
 
     private void uploadPreferences() {
@@ -143,9 +145,7 @@ public class MainActivity extends AppCompatActivity {
         StorageObject storageObject = new StorageObject();
         storageObject.setFilePath(getExternalFilesDir(Environment.DIRECTORY_PICTURES));
         storageObject.setImageName(imageFile.getName());
-        NutritionDialog mealPicker = new MealPickerDialog(context);
-        mealPicker.setStorageObject(storageObject);
-        mealPicker.showDialog();
+        DialogManager dialogManager = new DialogManager(context, storageObject);
     }
 
     @Override

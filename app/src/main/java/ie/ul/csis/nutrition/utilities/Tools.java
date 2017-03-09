@@ -2,12 +2,19 @@ package ie.ul.csis.nutrition.utilities;
 
 import android.content.Context;
 
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+
+import ie.ul.csis.nutrition.R;
+
+import static android.content.Context.MODE_PRIVATE;
 
 
 /**
@@ -57,9 +64,13 @@ public  class Tools {
 
     public static boolean isConnectedToInternet(Context context, int preference) {
         //if preference == 0, only wifi. If preference == 1, wifi or mobile connection
-        int [] acceptableNetworkTypes = {ConnectivityManager.TYPE_WIFI};
+
+        SharedPreferences sharedPreferences = context.getSharedPreferences(context.getString(R.string.sharedPerfs), MODE_PRIVATE);
+        preference = sharedPreferences.getInt("wifiOnly",1);
+        ArrayList<Integer> acceptableNetworkTypes = new ArrayList<Integer>();
+        acceptableNetworkTypes.add(ConnectivityManager.TYPE_WIFI);
         if (preference == 1) {
-            acceptableNetworkTypes[1] = ConnectivityManager.TYPE_MOBILE;
+            acceptableNetworkTypes.add(ConnectivityManager.TYPE_MOBILE);
         }
 
         ConnectivityManager cm = (ConnectivityManager)context.getSystemService(context.CONNECTIVITY_SERVICE);

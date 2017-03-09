@@ -11,6 +11,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Observer;
 import java.util.Observable;
@@ -19,8 +20,6 @@ import api.dto.meals.FoodItemDto;
 import api.dto.meals.MealsSaveImagesDto;
 import ie.ul.csis.nutrition.R;
 import ie.ul.csis.nutrition.threading.networking.AutomaticImageRequest;
-import ie.ul.csis.nutrition.threading.networking.SaveImagesRequest;
-import ie.ul.csis.nutrition.utilities.Tools;
 
 import static ie.ul.csis.nutrition.utilities.Tools.isConnectedToInternet;
 
@@ -32,18 +31,16 @@ public class ConnectivityObserver extends Activity implements Observer {
 
     private Context context;
     private String token;
+    private SharedPreferences sharedPreferences;
     private int preference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
-        //  setContentView(R.layout.offline_mode_layout);
 
         //Register for network status updates
 
-        SharedPreferences sharedPreferences = getSharedPreferences(context.getString(R.string.sharedPerfs), MODE_PRIVATE);
-        preference = sharedPreferences.getInt("wifiOnly",-1);
 
     }
 
@@ -56,17 +53,18 @@ public class ConnectivityObserver extends Activity implements Observer {
     @Override
     public void update(Observable o, Object arg) {
 
-        //Log.d("ConnectivityObserver", "Connection Established, Uploading Points!");
         Log.d("ConnectivityObserver", "File found, checking connection");
 
         if (checkConnection()) {
-            handlePictures();
+            handleFiles();
         }
 
     }
 
     private boolean checkConnection() {
 
+        sharedPreferences = context.getSharedPreferences(context.getString(R.string.sharedPerfs), MODE_PRIVATE);
+        preference = sharedPreferences.getInt("wifiOnly",1);
         boolean connection = isConnectedToInternet(context, preference);
         if (connection) {
             Log.d("ConnectivityObserver", "Connetion Detected");
@@ -91,9 +89,7 @@ public class ConnectivityObserver extends Activity implements Observer {
 //                tempFile = new File(filePath);
 //                sendPicture(tempFile);
 //                if (tempFile.exists() || tempFile.isDirectory()) {
-//                    //if this condition is met, the deletion of the file was not successful
-//                    //so the request itself was not successful.
-//                    //break cycle and continue later.
+
 //                    break;
 //                }
 //
@@ -102,17 +98,6 @@ public class ConnectivityObserver extends Activity implements Observer {
 //        }
 //    }
 
-    private void handlePictures() {
-        Log.d("ConnectivityObserver", "Attempting upload of picture");
-        File file = (File) context.getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-
-        if (file.isDirectory()) {
-            String [] files = file.list();
-            File fileOne = new File(context.getExternalFilesDir(Environment.DIRECTORY_PICTURES).getPath() + "/" + files[0]);
-            Log.d("ConnectivityObserver", "Image loaded from cache");
-            sendPicture(fileOne);
-        }
-    }
 
     private void handleFiles() {
         Log.d("ConnectivityObserver", "Attempting upload of picture");
@@ -120,33 +105,39 @@ public class ConnectivityObserver extends Activity implements Observer {
 
         Boolean keepGoing = true;
         if (directory.isDirectory()) {
-            String [] files = directory.list();
-            for (int i =0; keepGoing; i++) {
-                File myFile = new File(directory.getPath() + "/" + files[i]);
-                if (isJPG(myFile)) {
-                    String infoVersion = getTextFile(files[i]);
-                    if (Arrays.asList(files).contains(infoVersion)) {
-                        sendPicture(myFile, directory.getPath() + "/" + infoVersion);
+            String [] stringFiles = directory.list();
+            ArrayList<String> files = new ArrayList<String>(Arrays.asList(stringFiles));
+
+            for (int i =0; i<files.size(); i++) {
+                File myFile = new File(directory.getPath() + "/" + files.get(i));
+                if (isTXT(myFile)) {
+                    //continue to next and do nothing
+                    Log.d("ConnecvitiyObserver", "Is text file " + myFile.getName());
+                } else if (isJPG(myFile)) {
+                    String infoVersion = getTextFile(files.get(i));
+                    if (files.contains(infoVersion)) {
+                        try {
+                            String info = getInfoFromInfoFile(infoVersion);
+                            sendPicture(myFile, info);
+                        } catch (IOException e) {
+                            Log.d("ConnectivityObserver", "IOException while searching for " + infoVersion);
+                        } catch(Exception e) {
+                            Log.d("ConnectivityObserver","Exception for " + infoVersion);
+                        }
+                    } else {
+                        sendPicture(myFile);
                     }
-                    keepGoing = false;
+                }
+                if (!myFile.exists()) {
+                    break;
                 }
             }
         }
     }
+    private boolean sendPicture(File imgFile, String infoString) {
 
-    private boolean sendPicture(File imgFile, String infoFilePath) {
-
-        String infoString = "";
-        try {
-            infoString = getInfoFromInfoFile(infoFilePath);
-        } catch(IOException e) {
-            infoString = "";
-        }
-
-
-        //MealsSaveImagesDto dto = new MealsSaveImagesDto(null, null, new File[]{imgFile});
         FoodItemDto foodItemDto = new FoodItemDto(infoString);
-        MealsSaveImagesDto dto = new MealsSaveImagesDto(null, new FoodItemDto[] {foodItemDto}, new File[]{imgFile});
+        MealsSaveImagesDto dto = new MealsSaveImagesDto(null, new FoodItemDto[]{foodItemDto}, new File[]{imgFile});
         AutomaticImageRequest request = new AutomaticImageRequest(context, token, imgFile);
         request.execute(dto);
         return false;
@@ -155,7 +146,8 @@ public class ConnectivityObserver extends Activity implements Observer {
     private String getInfoFromInfoFile(String infoFilePath) throws IOException {
         String results = "";
         try {
-            FileReader fileReader = new FileReader(infoFilePath);
+            File myFile = new File(infoFilePath);
+            FileReader fileReader = new FileReader(myFile);
             BufferedReader reader = new BufferedReader(fileReader);
 
             String line = "";
@@ -165,11 +157,12 @@ public class ConnectivityObserver extends Activity implements Observer {
             }
 
             reader.close();
+            fileReader.close();
+            myFile.delete();
+
         } catch (Exception e) {
             results = "";
         }
-
-
 
         return results;
     }
@@ -180,11 +173,6 @@ public class ConnectivityObserver extends Activity implements Observer {
         request.execute(dto);
         return false;
     }
-
-
-//    private String getExtraString(imgFile) {
-//
-//    }
 
     private boolean isJPG(File testFile) {
         String filename = testFile.getName();
@@ -212,7 +200,12 @@ public class ConnectivityObserver extends Activity implements Observer {
         //so just replace that with txt
         //happy days
 
-        return filenameArray[0] + ".txt";
+        String returnString = "";
+
+        for (int i =0; i<filenameArray.length-1; i++) {
+            returnString += filenameArray[i] + ".";
+        }
+        return returnString + "txt";
     }
 
 

@@ -36,6 +36,7 @@ public class InternetInformationDialog extends NutritionDialog {
                 setWifiPreference(item);
             }
         });
+        builder.setCancelable(false);
         super.dialog = builder.create();
 
 

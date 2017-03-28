@@ -11,10 +11,8 @@ import android.view.Window;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
-import api.dto.accounts.AccountRegisterDto;
 import ie.ul.csis.nutrition.R;
 
-import ie.ul.csis.nutrition.threading.networking.RegisterRequest;
 import ie.ul.csis.nutrition.utilities.Tools;
 
 

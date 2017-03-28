@@ -6,7 +6,6 @@ import android.os.AsyncTask;
 import api.dto.accounts.AccountRegisterDto;
 import api.httprequests.account.AccountRegister;
 import ie.ul.csis.nutrition.user_interface.MainActivity;
-import ie.ul.csis.nutrition.user_interface.RegisterActivity;
 import ie.ul.csis.nutrition.utilities.Tools;
 
 

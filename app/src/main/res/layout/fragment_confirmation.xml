@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ie.ul.csis.nutrition.user_interface.Fragments.ConfirmationFragment">
+
+    <Button
+        android:id="@+id/btn_sendPic"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_check_circle_black_24dp"
+
+        android:maxWidth="@dimen/icon_width"
+        android:layout_marginEnd="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="13dp" />
+
+    <Button
+        android:id="@+id/btn_removePic"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_highlight_off_black_24dp"
+
+        android:maxWidth="@dimen/icon_width"
+        android:layout_alignBottom="@+id/btn_sendPic"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="86dp" />
+</RelativeLayout>

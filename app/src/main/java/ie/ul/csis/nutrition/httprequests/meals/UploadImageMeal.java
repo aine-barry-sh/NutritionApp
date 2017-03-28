@@ -3,7 +3,6 @@ package ie.ul.csis.nutrition.httprequests.meals;
 import android.util.Base64;
 
 
-import org.json.JSONArray;
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
 import java.io.IOException;

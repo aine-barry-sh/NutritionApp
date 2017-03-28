@@ -1,35 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AndroidLayouts">
     <shared>
       <config />
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e0d116-f7ba-4ed6-b459-0e829b868a7f" name="Default" comment="Update">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/DialogManager.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/ExtraTextDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/MealPickerDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/PhotoInformationDialog.java" afterPath="" />
+    <list default="true" id="f9e0d116-f7ba-4ed6-b459-0e829b868a7f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/GetRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/PostRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/Request.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/account/AccountChangePassword.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/account/AccountLogOut.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/account/AccountRegister.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/account/AccountToken.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/account/AccountValidateSession.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/threading/networking/AutomaticImageRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Fragments/SelectionFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/InternetInformationActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_camera_alt_black_24dp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_highlight_off_black_24dp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_image_black_24dp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_internet_information.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_internet_information.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_confirmation.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_selection.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/grey_camera_icon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/grey_gallery_icon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/grey_upload_icon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/forgot_your_password_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/sign_up.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/libs/AndroidNetworking.jar" afterPath="$PROJECT_DIR$/app/libs/AndroidNetworking.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/Request/UploadImageMeal.java" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/Request/UploadImageMeal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/meals/UploadImageMeal.java" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/meals/UploadImageMeal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/threading/networking/RegisterRequest.java" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/threading/networking/RegisterRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/DialogManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/DialogManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/InternetInformationDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/InternetInformationDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Uploaders/ConnectivityObserver.java" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Uploaders/ConnectivityObserver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Uploaders/FileStatus.java" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Uploaders/FileStatus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/StorageObject.java" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/StorageObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/Tools.java" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/Tools.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/RegisterActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register_user.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register_user.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="FoodDiaryApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,101 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/MainActivity.java">
+      <file leaf-file-name="InternetInformationDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/InternetInformationDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UploadImageMeal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/meals/UploadImageMeal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectivityObserver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Uploaders/ConnectivityObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3119#3127#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StorageObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/StorageObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="56" column="73" selection-start-line="56" selection-start-column="73" selection-end-line="56" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfirmationFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Fragments/ConfirmationFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="43" column="35" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/Tools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutomaticImageRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/threading/networking/AutomaticImageRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileStatus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Uploaders/FileStatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-              <folding>
-                <element signature="e#2510#2511#0" expanded="true" />
-                <element signature="e#2543#2544#0" expanded="true" />
-                <element signature="e#2578#2579#0" expanded="true" />
-                <element signature="e#2609#2610#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DialogManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/DialogManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="29" column="118" selection-start-line="29" selection-start-column="118" selection-end-line="29" selection-end-column="118" />
+            <state relative-caret-position="326">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="48" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -165,8 +105,104 @@
       <file leaf-file-name="SelectionFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Fragments/SelectionFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="134" column="20" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="20" />
+            <state relative-caret-position="292">
+              <caret line="82" column="5" selection-start-line="70" selection-start-column="4" selection-end-line="82" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InternetInformationActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/InternetInformationActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-765">
+              <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+              <folding>
+                <element signature="e#1339#1370#0" expanded="true" />
+                <element signature="e#2257#2284#0" expanded="true" />
+                <element signature="e#2316#2341#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectivityObserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Uploaders/ConnectivityObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/Tools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="92" selection-end-column="7" />
+              <folding>
+                <element signature="e#2456#2483#0" expanded="true" />
+                <element signature="e#2515#2540#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_internet_information.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_internet_information.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_internet_information.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_internet_information.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2076,14 +2112,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Fragments/PhotoFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/BlankFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Fragments/BlankFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Fragments/PhotoInformationFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_wifi_preference.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_photo_information.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/threading/networking/SaveImagesRequest.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/Request.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/PostRequest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/GetRequest.java" />
@@ -2097,7 +2126,6 @@
         <option value="$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/api/httprequests/Request.class" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_selection.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_get_string.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/api/dto/meals/FoodItemDto.class" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/meals/UploadImageMeal.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/Request/UploadImageMeal.java" />
@@ -2115,18 +2143,26 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/StorageFile.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/NetworkStatus.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/GPSTracker.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/DialogManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Fragments/SelectionFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/InternetInformationDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/shared_perfs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/threading/networking/AutomaticImageRequest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/StorageObject.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/Tools.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Uploaders/FileStatus.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Uploaders/ConnectivityObserver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/DialogManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register_user.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/InternetInformationDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_internet_information.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_internet_information.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/InternetInformationActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2161,9 +2197,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="AndroidView">
         <subPane />
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -2198,7 +2238,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2296,6 +2335,40 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodDiaryApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodDiaryApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-w820dp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2382,40 +2455,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mipmap-xxxhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mipmap-xxhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2444,6 +2483,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodDiaryApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodDiaryApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2658,213 +2727,8 @@
               <option name="myItemId" value="nutrition" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="networking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nutrition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nutrition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="httprequests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nutrition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="httprequests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidNetworking.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidNetworking.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FoodDiaryApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidNetworking.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -2881,27 +2745,28 @@
     <property name="options.searchVisible" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AndroidFoodDiaryApp" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="device.picker.selection" value="5245e2f5" />
-    <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlEditorPanel.WIDTH" value="279" />
+    <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlEditorPanel.WIDTH" value="217" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\libs" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\src\main\res\xml" />
     </key>
     <key name="android.template.packageName">
       <recent name="ie.ul.csis.nutrition.user_interface" />
+      <recent name="drawable" />
       <recent name="ie.ul.csis.nutrition" />
       <recent name="layout" />
     </key>
     <key name="android.template.parentActivityClass">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\src\main\res\xml" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\libs" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -3225,7 +3090,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488990170113</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1489024822251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489024822251</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3238,40 +3110,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31948882" sideWeight="0.48789713" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33386582" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258786" sideWeight="0.48789713" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31948882" sideWeight="0.48789713" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33386582" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258786" sideWeight="0.48789713" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3434505" sideWeight="0.49092284" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.49092284" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5030257" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30484116" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15733737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3296,151 +3169,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/api/dto/meals/MealsSaveImagesDto.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/api/dto/meals/FoodItemDto.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/api/dto/meals/FoodItemDto.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/Request/UploadImageMeal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1488935337014" expanded="true" signature="1119:3695" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_internet_selection.xml" />
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/api/config/ConfigReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/api/httprequests/account/AccountToken.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking222.jar!/.project" />
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking222.jar!/.classpath" />
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking222.jar!/Tools/MyBase64.class" />
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking222.jar!/api/config/config.json" />
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking222.jar!/api/config/ConfigReader.java" />
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking222.jar!/api/dto/accounts/AccountChangePasswordDto.java" />
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/threading/networking/LoginRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="84" column="45" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_meal_type.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_get_string.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/threading/networking/SaveImagesRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/ImageDialogs.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/NutritionDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/PhotoInformationDialog.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Fragments/PhotoInformationFragment.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/StorageFile.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/NetworkStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/GPSTracker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3463,154 +3195,362 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/RegisterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/MealPickerDialog.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/ExtraTextDialog.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="97" column="11" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/InternetInformationDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/shared_perfs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/api/config/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/meals/UploadImageMeal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
+        <state relative-caret-position="1751">
           <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/DialogManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="29" column="118" selection-start-line="29" selection-start-column="118" selection-end-line="29" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Fragments/SelectionFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="134" column="20" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Fragments/ConfirmationFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/StorageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="646">
           <caret line="56" column="73" selection-start-line="56" selection-start-column="73" selection-end-line="56" selection-end-column="73" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Uploaders/FileStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="527">
           <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
           <folding>
-            <element signature="e#2510#2511#0" expanded="true" />
-            <element signature="e#2543#2544#0" expanded="true" />
-            <element signature="e#2578#2579#0" expanded="true" />
-            <element signature="e#2609#2610#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="false" />
+            <element signature="e#2543#2544#0" expanded="false" />
+            <element signature="e#2578#2579#0" expanded="false" />
+            <element signature="e#2609#2610#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Uploaders/ConnectivityObserver.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/threading/networking/RegisterRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+        <state relative-caret-position="-17">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/api/dto/accounts/AccountTokenDto.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/api/httprequests/PostRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/api/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/AndroidNetworking.jar!/api/httprequests/account/AccountToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/threading/networking/LoginRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="84" column="45" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3119#3127#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="false" />
+            <element signature="e#1148#1149#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/threading/networking/AutomaticImageRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="833">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/PostRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/httprequests/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/Request/UploadImageMeal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Fragments/ConfirmationFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#750#768#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/register.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/sign_up.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/text_bar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/login_btn.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/forgot_your_password_button.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/background.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_selection.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register_user.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/DialogManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1382#1383#0" expanded="false" />
+            <element signature="e#1421#1422#0" expanded="false" />
+            <element signature="e#2234#2235#0" expanded="false" />
+            <element signature="e#2288#2289#0" expanded="false" />
+            <element signature="e#2384#2385#0" expanded="false" />
+            <element signature="e#2422#2423#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/NutritionDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="95" column="81" selection-start-line="95" selection-start-column="81" selection-end-line="95" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_internet_information.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_internet_information.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Fragments/SelectionFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="82" column="5" selection-start-line="70" selection-start-column="4" selection-end-line="82" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Dialogs/InternetInformationDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="48" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/Uploaders/ConnectivityObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/utilities/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
+        <state relative-caret-position="119">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="92" selection-end-column="7" />
+          <folding>
+            <element signature="e#2456#2483#0" expanded="true" />
+            <element signature="e#2515#2540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ie/ul/csis/nutrition/user_interface/InternetInformationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding>
+            <element signature="e#1339#1370#0" expanded="true" />
+            <element signature="e#2257#2284#0" expanded="true" />
+            <element signature="e#2316#2341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
           <folding />
         </state>
       </provider>

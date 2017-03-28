@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Switch;
 
 import api.dto.accounts.AccountTokenDto;
 import ie.ul.csis.nutrition.R;
@@ -23,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText etEmail;
     private EditText etPassword;
     private ImageButton btnLogin;
-    private CheckBox cbRememberMe;
+    private Switch swtchRememberMe;
     private Context context;
     private ProgressDialog pDialog;
 
@@ -49,10 +50,10 @@ public class LoginActivity extends AppCompatActivity {
         etEmail = (EditText) findViewById(R.id.etEmail);
         etPassword = (EditText) findViewById(R.id.etRegisterPassword);
         btnLogin = (ImageButton) findViewById(R.id.btnLogin);
-        cbRememberMe = (CheckBox) findViewById(R.id.cbRememberMe);
+        swtchRememberMe = (Switch) findViewById(R.id.rememberMeSwitch);
 
 
-        cbRememberMe.setChecked(preferenceData.getBoolean(context.getString(R.string.rememberMeKey), false));
+        swtchRememberMe.setChecked(preferenceData.getBoolean(context.getString(R.string.rememberMeKey), false));
 
         if (preferenceData.getBoolean("rememberMe", false)) {
             etEmail.setText(preferenceData.getString("email", ""));
@@ -80,7 +81,7 @@ public class LoginActivity extends AppCompatActivity {
                     return;
                 }
 
-                if (cbRememberMe.isChecked())
+                if (swtchRememberMe.isChecked())
                 {
                     editor.putString(context.getString(R.string.emailKey), email);
                     editor.putBoolean(context.getString(R.string.rememberMeKey), true);
@@ -111,6 +112,12 @@ public class LoginActivity extends AppCompatActivity {
     public void changeToMainActivity()
     {
         startActivity(new Intent(LoginActivity.this, MainActivity.class));
+        finish();
+    }
+
+    private void changeToInternetDialog() {
+
+        startActivity(new Intent(LoginActivity.this, InternetInformationActivity.class));
         finish();
     }
 

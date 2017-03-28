@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FoodDiary</string>
+    <string name="app_name">Nutrition App Demo</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -86,5 +86,13 @@
 
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="title_activity_photo_information">PhotoInformationActivity</string>
+
+    <string name="low_memory_title">Low Memory Warning</string>
+    <string name="low_memory_message">The memory on this device is low. Please delete items before use</string>
+    <string name="title_activity_internet_information">InternetInformationActivity</string>
+    <string name="internet_information_desc">You must choose the way you would like your pictures to be uploaded. Keep in mind that selecting data may incur charges.
+    </string>
+    <string name="internet_wifi_only_option">Upload using only wifi</string>
+    <string name="interenet_data_and_wifi_option">Upload using your data and wifi</string>
 
 </resources>

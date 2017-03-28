@@ -30,6 +30,7 @@ public class DialogManager {
         final String [] mealTypes = {"Breakfast", "Lunch", "Dinner", "Snack", "Pre-workout", "Post-workout", "Other"};
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle("What type of meal was this?");
+        builder.setCancelable(false);
         builder.setItems(mealTypes, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int item) {
                 storageObject.setMealType(mealTypes[item]);
@@ -51,6 +52,7 @@ public class DialogManager {
         // Seting an EditText view to get user input
         final EditText input = new EditText(context);
         alert.setView(input);
+        alert.setCancelable(false);
 
         alert.setPositiveButton("Send with this text", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {

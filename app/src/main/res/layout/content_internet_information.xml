@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_internet_information"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ie.ul.csis.nutrition.user_interface.InternetInformationActivity"
+    tools:showIn="@layout/activity_internet_information">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="27dp">
+
+        <Button
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="34dp"
+            android:id="@+id/internetSubmitButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/radioButtonGroup"
+            android:background="@android:color/holo_blue_light"/>
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radioButtonGroup"
+            android:layout_alignBottom="@+id/internetSubmitButton"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:text="@string/internet_wifi_only_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton"
+                android:layout_alignBottom="@+id/radioButton4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="55dp" />
+
+            <RadioButton
+                android:text="@string/interenet_data_and_wifi_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton4"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/radioButton"
+                android:layout_marginBottom="179dp" />
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/internet_information_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_marginBottom="19dp"
+            android:textSize="20dp"
+            android:layout_above="@+id/radioButtonGroup"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</RelativeLayout>

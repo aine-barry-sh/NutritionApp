@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        revision="24.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-f139c2b20b0a52c50f2ed3a4c27abacbc21192cd.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-46e65411fdb5e7a2636c46b3f4cb6067f9b0e691.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        revision="24.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-e052eb8d3442eadf4ac8dc1b9eba8bbe5d52f284.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        revision="24.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-6b0b6bb946de0124d24408d0717474ae0638ff21.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-5533e1d749bb14d8ad24c3d56f8d62b5221d9eec.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        revision="24.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-a02f6fe9145a49cc4769aea046fe684289b574e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        revision="24.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-24.2.1-0f3579aa0c3635c0a485d9607802451628ce7b89.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-0654fb2501199cf5c259cf29f18cf07a80e62767.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c6719ea549df8c3d2a84615d5547507651137136.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-3ae2413f06f1fd8b09fa0f26d856d4fd2313fc8f.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-0f0504615e365fdda9cb3fce04bc3aa92f0cfad2.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        revision="24.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-c05c8aa6f83545eb43c03807b13be879d6723d2c.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\libs\gson-2.6.2.jar"
+        revision="24.0.0"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\gson-2.6.2-8ed2396d4a4b65e150f4984238979f0552f1c475.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-3cf5534350bbcb8f0fda83047e879ab21e2c17ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\libs\AndroidNetworking.jar"
+        revision="24.0.0"
+        sha1="e1968b13943f1f21d086373bc123b334a74fe3bd">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\AndroidNetworking-8588cb7dd492059d0acde2c96c1d5c3d2e1cd9fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-f6ab04d31e2fd28b7fcd9e75ce47e7bd1c2d3043.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-237af7c0367e309fe60fd657572a33d05d6ff462.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-25d6304d918880565c8f25319dc26aef9300f6c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\aineb100\Desktop\FYP-Project\FoodDiaryApp\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-6ea966342041f2b10332ba4a611d6c706e5c159d.jar" />
+    </item>
+
+</items>

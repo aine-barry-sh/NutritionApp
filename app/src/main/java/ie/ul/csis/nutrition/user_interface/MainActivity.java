@@ -1,6 +1,8 @@
 package ie.ul.csis.nutrition.user_interface;
 
 import android.Manifest;
+import android.app.ActivityManager;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -14,7 +16,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ImageView;
 import ie.ul.csis.nutrition.R;
 import ie.ul.csis.nutrition.threading.networking.LogoutRequest;
@@ -53,23 +54,43 @@ public class MainActivity extends AppCompatActivity {
 
         getPermissions();
         updateFragment();
-        uploadPreferences();
     }
 
     @Override
     public void onResume() {
         super.onResume();
         initializeBackgroundProgress();
+        checkMemory();
     }
 
-    private void uploadPreferences() {
+    private void checkMemory() {
+        ActivityManager.MemoryInfo memoryInfo = getAvailableMemory();
 
-        SharedPreferences preferences = getSharedPreferences(context.getString(R.string.sharedPerfs), MODE_PRIVATE);
-        if (preferences.getInt("wifiOnly", -1) == -1) {
-            NutritionDialog internetInformationDialog = new InternetInformationDialog(context);
-            internetInformationDialog.showDialog();
+        if(memoryInfo.lowMemory) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage(R.string.low_memory_message);
+            builder.setTitle(R.string.low_memory_title);
+            builder.setCancelable(false);
+            builder.create().show();
         }
     }
+
+    private ActivityManager.MemoryInfo getAvailableMemory() {
+
+        ActivityManager activityManager = (ActivityManager) this.getSystemService(ACTIVITY_SERVICE);
+        ActivityManager.MemoryInfo memoryInfo = new ActivityManager.MemoryInfo();
+        activityManager.getMemoryInfo(memoryInfo);
+        return memoryInfo;
+    }
+
+//    private void uploadPreferences() {
+//
+//        SharedPreferences preferences = getSharedPreferences(context.getString(R.string.sharedPerfs), MODE_PRIVATE);
+//        if (preferences.getInt("wifiOnly", -1) == -1) {
+//            NutritionDialog internetInformationDialog = new InternetInformationDialog(context);
+//            internetInformationDialog.showDialog();
+//        }
+//    }
     private void initializeBackgroundProgress() {
         FileStatus fileChecker = new FileStatus(this);
         Thread fileCheckerThread = new Thread(fileChecker);
@@ -224,6 +245,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void setImageFile(File imageFile) {
         this.imageFile = imageFile;
+    }
+
+    public void onBackPressed() {
+
+        super.onBackPressed();
     }
 
 }
